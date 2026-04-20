@@ -105,7 +105,7 @@ a{
 
 .about-text{
     flex-grow: 3;
-    font-size: x-large;
+    font-size: 18px;
     justify-content: center;
     align-items: start;
 }
