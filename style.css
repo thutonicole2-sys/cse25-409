@@ -1,1 +1,117 @@
+header{
+    display: flex;
+    align-items: center;/*vertically centers the content in the header*/
+        justify-content: space-between;
+        padding: 10px;/*adds space inside the header*/
+        background-color: black;
+        color:goldenrod;
 
+}
+/*styling for the navigation bar*/
+
+ul{
+    list-style-type: none;/*removes bullets from the list*/
+    margin: 0;
+    padding: 0;
+    display: flex;/*makes my navigation horizontal*/
+    gap: 10px;/*adds space between my navigation links*/
+    
+}
+
+li{
+    display: inline;/*makes my navigation to appear on the same line*/
+    ;
+}
+
+a{
+    text-decoration: none;/*to remove the underline from my navigation*/
+    color: white;
+    font: bold;
+}
+
+/*styling for the home page*/
+
+.welcome-message h2{
+    color:goldenrod;
+}
+.welcome-message{
+    text-align: center;/*centers the welcome message on the page*/
+    padding: 50px;/*adds space around the welcome message*/
+}
+.social-media h2{
+    color:goldenrod;
+}
+.social-media{
+    text-align: center;/*centers the social media section on the page*/
+    padding: 20px;/*adds space around the social media section*/
+}
+.social-media a{
+    margin: 0 10px;/*adds space between the social media icons*/
+    color: rgb(13, 13, 13);
+    font-size: 12px;/*increases the size of the social media icons*/
+}
+
+/*styling for the about us section*/
+
+.about-us{
+    display: flex;
+    align-items: center;/*vertically centers the content in the about section*/
+    gap: 30px;
+}
+.about-image{
+    width: 300px;/*sets the width of the image*/
+    height: auto;/*maintains the aspect ratio of the image*/    
+    flex-shrink: 0;/*prevents the image from shrinking when the container is resized*/  
+}
+.about-image{
+    text-align: center;/*centers the image in the about section*/
+}
+.about-text{
+    flex: 1;/*allows the text to take up the remaining space*/
+}
+.about-text h2{
+    color:goldenrod;   
+}
+
+/*styling for the contact page*/
+.contact-info h2{
+    color:goldenrod;
+}
+/*styling for the payment page*/
+.payment h1{
+    color:goldenrod;
+}
+.order-summary h2{
+    color:goldenrod;
+}
+
+.feedback-form h2{
+    color:goldenrod;
+}
+
+.about-us{
+    display: flex;
+    align-items: center;/*vertically centers the content in the about section*/
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about-us img {
+    width: 100px;/*sets the width of the image*/
+    height: 300px;/*maintains the aspect ratio of the image*/    
+    padding: 20px;/*prevents the image from shrinking when the container is resized*/ 
+    flex-grow: 1; 
+}
+
+.about-text{
+    flex-grow: 3;
+    font-size: x-large;
+    justify-content: center;
+    align-items: start;
+}
+
+.about-text h2 {
+    display: flex;
+    justify-content: center;
+    
+}
