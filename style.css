@@ -25,7 +25,7 @@ li{
 
 a{
     text-decoration: none;/*to remove the underline from my navigation*/
-    color: white;
+    color: white!important;/*to make the text color white*/
     font: bold;
 }
 
@@ -47,7 +47,7 @@ a{
 }
 .social-media a{
     margin: 0 10px;/*adds space between the social media icons*/
-    color: rgb(13, 13, 13);
+    color: rgb(13, 13, 13)!important;/*to make the social media icons black*/
     font-size: 12px;/*increases the size of the social media icons*/
 }
 
@@ -114,4 +114,15 @@ a{
     display: flex;
     justify-content: center;
     
+}
+.carasol-item img{
+    width: 100px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;/*centers the image horizontally*/
+
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
 }
