@@ -89,6 +89,12 @@ a{
 .about-text h2{
     color:goldenrod;   
 }
+.rules h3{
+    color:goldenrod;
+}
+.location h3{
+    color:goldenrod;
+}
 
 /*styling for the contact page*/
 .contact-info h2{
@@ -140,4 +146,29 @@ a{
 }
 .home-page{
     background-color: black;
+}
+/*styling for feedback form*/
+.feedback-form{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);/*adds a subtle shadow around the form*/
+    padding: 20px;/*adds space inside the form*/
+    border-radius: 5px;/*rounds the corners of the form*/
+    background-color: white;/*sets the background color of the form to white*/
+    margin: 20px auto;/*centers the form on the page*/
+    max-width: 400px;/*sets a maximum width for the form*/
+}
+.login{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);/*adds a subtle shadow around the form*/
+    padding: 20px;/*adds space inside the form*/
+    border-radius: 5px;/*rounds the corners of the form*/
+    background-color: white;/*sets the background color of the form to white*/
+    margin: 20px auto;/*centers the form on the page*/
+    max-width: 400px;/*sets a maximum width for the form*/
+}
+.signup{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);/*adds a subtle shadow around the form*/
+    padding: 20px;/*adds space inside the form*/
+    border-radius: 5px;/*rounds the corners of the form*/
+    background-color: white;/*sets the background color of the form to white*/
+    margin: 20px auto;/*centers the form on the page*/
+    max-width: 400px;/*sets a maximum width for the form*/
 }
