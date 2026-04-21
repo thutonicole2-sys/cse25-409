@@ -40,13 +40,20 @@ a{
 }
 .welcome-message p{
     font-size: 18px;/*increases the size of the welcome message paragraph*/
-    color: rgb(13, 13, 13);
+    color: rgb(105, 74, 6);
     text-align: left;/*aligns the welcome message paragraph to the left*/
 }
 .welcome-message{
     text-align: center;/*centers the welcome message on the page*/
     padding: 50px;/*adds space around the welcome message*/
     text-align: center;
+}
+.image-container{
+    text-align: right;/*aligns the image to the right*/
+    position: absolute;/*allows the image to be positioned relative to the nearest positioned ancestor*/
+    top: 0%;/*positions the image at the top of the page*/
+    right: 0;/*positions the image at the right of the page*/
+    z-index: -1;/*ensures the image appears above other content*/
 }
 .social-media h2{
     color:goldenrod;
@@ -57,7 +64,7 @@ a{
 }
 .social-media a{
     margin: 0 10px;/*adds space between the social media icons*/
-    color: rgb(13, 13, 13)!important;/*to make the social media icons black*/
+    color: goldenrod!important;/*to make the social media icons goldenrod*/
     font-size: 12px;/*increases the size of the social media icons*/
 }
 
@@ -130,4 +137,7 @@ a{
     height: 400px;/*maintains the aspect ratio of the image*/    
     padding: 20px;/*prevents the image from shrinking when the container is resized*/ 
     flex-grow: 1; 
+}
+.home-page{
+    background-color: black;
 }
