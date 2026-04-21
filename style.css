@@ -33,10 +33,20 @@ a{
 
 .welcome-message h2{
     color:goldenrod;
+    font-size: 40px;/*increases the size of the welcome message heading*/
+    font-style: oblique;
+    text-align: left;/*aligns the welcome message heading to the left*/
+    
+}
+.welcome-message p{
+    font-size: 18px;/*increases the size of the welcome message paragraph*/
+    color: rgb(13, 13, 13);
+    text-align: left;/*aligns the welcome message paragraph to the left*/
 }
 .welcome-message{
     text-align: center;/*centers the welcome message on the page*/
     padding: 50px;/*adds space around the welcome message*/
+    text-align: center;
 }
 .social-media h2{
     color:goldenrod;
@@ -114,4 +124,10 @@ a{
     display: flex;
     justify-content: center;
     
+}
+.welcome-message img{
+    width: 300px;/*sets the width of the image*/
+    height: 400px;/*maintains the aspect ratio of the image*/    
+    padding: 20px;/*prevents the image from shrinking when the container is resized*/ 
+    flex-grow: 1; 
 }
