@@ -37,8 +37,16 @@
 
             <label for="message">Add a comment:</label><br>
             <textarea id="message" name="message" rows="5" required></textarea><br>
-
+       <form onsubmit="clearForm(event)">
             <button type="submit">Submit Feedback</button>
+                <script>
+                function clearForm(event) {
+                    event.preventDefault(); // Prevent form submission
+                    document.getElementById('phone').value = "";
+                    document.getElementById('email').value = "";
+                    document.getElementById('message').value = "";
+                }
+                </script>
         
     </div>
     
