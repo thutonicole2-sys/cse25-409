@@ -33,13 +33,13 @@ a{
 
 .welcome-message h2{
     color:goldenrod;
-    font-size: 40px;/*increases the size of the welcome message heading*/
+    font-size: 250%;/*increases the size of the welcome message heading*/
     font-style: oblique;
     text-align: left;/*aligns the welcome message heading to the left*/
     
 }
 .welcome-message p{
-    font-size: 18px;/*increases the size of the welcome message paragraph*/
+    font-size: 112.5%;/*increases the size of the welcome message paragraph*/
     color: rgb(105, 74, 6);
     text-align: left;/*aligns the welcome message paragraph to the left*/
 }
@@ -76,7 +76,7 @@ a{
     gap: 30px;
 }
 .about-image{
-    width: 300px;/*sets the width of the image*/
+    width: 1875%;/*sets the width of the image*/
     height: auto;/*maintains the aspect ratio of the image*/    
     flex-shrink: 0;/*prevents the image from shrinking when the container is resized*/  
 }
@@ -120,15 +120,15 @@ a{
 }
 
 .about-us img {
-    width: 100px;/*sets the width of the image*/
-    height: 300px;/*maintains the aspect ratio of the image*/    
+    width: 5%;/*sets the width of the image*/
+    height: auto;/*maintains the aspect ratio of the image*/    
     padding: 20px;/*prevents the image from shrinking when the container is resized*/ 
     flex-grow: 1; 
 }
 
 .about-text{
     flex-grow: 3;
-    font-size: 18px;
+    font-size: 112.5%;/*increases the size of the text in the about section*/
     justify-content: center;
     align-items: start;
 }
@@ -139,8 +139,8 @@ a{
     
 }
 .welcome-message img{
-    width: 300px;/*sets the width of the image*/
-    height: 400px;/*maintains the aspect ratio of the image*/    
+    width:60%;/*sets the width of the image*/
+    height: auto;/*maintains the aspect ratio of the image*/    
     padding: 20px;/*prevents the image from shrinking when the container is resized*/ 
     flex-grow: 1; 
 }
@@ -153,8 +153,8 @@ a{
     padding: 20px;/*adds space inside the form*/
     border-radius: 5px;/*rounds the corners of the form*/
     background-color: white;/*sets the background color of the form to white*/
-    margin: 20px auto;/*centers the form on the page*/
-    max-width: 400px;/*sets a maximum width for the form*/
+    margin: 20% auto;/*centers the form on the page*/
+    max-width: 40%;/*sets a maximum width for the form*/
 }
 /*styling for login and signup forms*/
 .login{
@@ -162,16 +162,16 @@ a{
     padding: 20px;/*adds space inside the form*/
     border-radius: 5px;/*rounds the corners of the form*/
     background-color: white;/*sets the background color of the form to white*/
-    margin: 20px auto;/*centers the form on the page*/
-    max-width: 400px;/*sets a maximum width for the form*/
+    margin: 20% auto;/*centers the form on the page*/
+    max-width: 40%;/*sets a maximum width for the form*/
 }
 .signup{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);/*adds a subtle shadow around the form*/
     padding: 20px;/*adds space inside the form*/
     border-radius: 5px;/*rounds the corners of the form*/
     background-color: white;/*sets the background color of the form to white*/
-    margin: 20px auto;/*centers the form on the page*/
-    max-width: 400px;/*sets a maximum width for the form*/
+    margin: 20% auto;/*centers the form on the page*/
+    max-width: 40%;/*sets a maximum width for the form*/
 }
 /*styling for contact form*/
 .contact-info{
@@ -179,14 +179,14 @@ a{
     padding: 20px;/*adds space inside the form*/
     border-radius: 5px;/*rounds the corners of the form*/
     background-color: white;/*sets the background color of the form to white*/
-    margin: 20px auto;/*centers the form on the page*/
-    max-width: 400px;/*sets a maximum width for the form*/
+    margin: 20% auto;/*centers the form on the page*/
+    max-width: 40%;/*sets a maximum width for the form*/
 }
 .payment{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);/*adds a subtle shadow around the form*/
     padding: 20px;/*adds space inside the form*/
     border-radius: 5px;/*rounds the corners of the form*/
     background-color: white;/*sets the background color of the form to white*/
-    margin: 20px auto;/*centers the form on the page*/
-    max-width: 400px;/*sets a maximum width for the form*/
+    margin: 20% auto;/*centers the form on the page*/
+    max-width: 40%;/*sets a maximum width for the form*/
 }
