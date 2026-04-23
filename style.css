@@ -1,44 +1,8 @@
-header{
-    display: flex;
-    align-items: center;/*vertically centers the content in the header*/
-        justify-content: space-between;
-        padding: 10px;/*adds space inside the header*/
-        background-color: black;
-        color:goldenrod;
-        margin-bottom: 10px;/*adds space below the header*/
 
-}
-/*styling for the navigation bar*/
 
-ul{
-    list-style-type: none;/*removes bullets from the list*/
-    margin: 0;
-    padding: 0;
-    display: flex;/*makes my navigation horizontal*/
-    gap: 10px;/*adds space between my navigation links*/
-    
-}
 
-li{
-    display: inline;/*makes my navigation to appear on the same line*/
-    ;
-}
 
-a{
-    text-decoration: none;/*to remove the underline from my navigation*/
-    color: white!important;/*to make the text color white*/
-    font: bold;
-}
-
-/*styling for the home page*/
-
-.image-container{
-    text-align: right;/*aligns the image to the right*/
-    position: absolute;/*allows the image to be positioned relative to the nearest positioned ancestor*/
-    top: 0%;/*positions the image at the top of the page*/
-    right: 0;/*positions the image at the right of the page*/
-    z-index: -1;/*ensures the image appears above other content*/
-}
+/*styling for the social media section in the footer*/
 .social-media h2{
     color:goldenrod;
 }
@@ -238,27 +202,30 @@ a{
 /* Body Styling */
 body.home-page {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4; /* Suggested background */
-  color: #333;
+  background-color: grey; /* Suggested background */
+  color:grey;
   line-height: 1.6;
   padding: 0;
 }
 
-/* Header */
+/*  Styling for Header */
 header {
   background: #222;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+  color: white;
+  padding:  10px 20px;
+  align-items: center;
+  justify-content: space-between;
+display: flex;
 }
 
 header h2 {
   margin-bottom: 15px;
   font-weight: bold;
   letter-spacing: 2px;
+  color: #ff9800;
 }
 
-/* Navigation */
+/*  Styling for Navigation */
 nav ul {
   list-style: none;
   display: flex;
@@ -270,7 +237,6 @@ nav ul {
 nav ul li {
   display: inline;
 }
-
 nav ul li a {
   text-decoration: none;
   color: #fff;
@@ -279,25 +245,25 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ff9800;
+  color: goldenrod;
 }
 
 /* Buttons inside nav */
-nav .btn {
-  background: #ff9800;
+nav .button {
+  background: orange;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
 }
 
-nav .btn a {
+nav .button a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
-nav .btn:hover {
-  background: #e68900;
+nav .button:hover {
+  background: orange;
 }
 
 /* Welcome Message Section */
@@ -311,7 +277,7 @@ nav .btn:hover {
 }
 
 .welcome-message img {
-  width: 100%;
+  width: 107%;
   height: auto;
   display: block;
 }
@@ -358,10 +324,10 @@ nav .btn:hover {
 /* Footer */
 footer {
   background: #222;
-  color: #fff;
   text-align: center;
-  padding: 30px 20px;
-  margin-top: 40px;
+  padding:  20px;
+  margin-top: 0;
+
 }
 
 footer h2 {
