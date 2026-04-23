@@ -5,6 +5,7 @@ header{
         padding: 10px;/*adds space inside the header*/
         background-color: black;
         color:goldenrod;
+        margin-bottom: 10px;/*adds space below the header*/
 
 }
 /*styling for the navigation bar*/
@@ -31,23 +32,6 @@ a{
 
 /*styling for the home page*/
 
-.welcome-message h2{
-    color:goldenrod;
-    font-size: 250%;/*increases the size of the welcome message heading*/
-    font-style: oblique;
-    text-align: left;/*aligns the welcome message heading to the left*/
-    
-}
-.welcome-message p{
-    font-size: 112.5%;/*increases the size of the welcome message paragraph*/
-    color: rgb(105, 74, 6);
-    text-align: left;/*aligns the welcome message paragraph to the left*/
-}
-.welcome-message{
-    text-align: center;/*centers the welcome message on the page*/
-    padding: 50px;/*adds space around the welcome message*/
-    text-align: center;
-}
 .image-container{
     text-align: right;/*aligns the image to the right*/
     position: absolute;/*allows the image to be positioned relative to the nearest positioned ancestor*/
@@ -138,15 +122,13 @@ a{
     justify-content: center;
     
 }
-.welcome-message img{
-    width:60%;/*sets the width of the image*/
-    height: auto;/*maintains the aspect ratio of the image*/    
-    padding: 20px;/*prevents the image from shrinking when the container is resized*/ 
-    flex-grow: 1; 
-}
+
+
 .home-page{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
+
+
 /*styling for feedback form*/
 .feedback-form{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);/*adds a subtle shadow around the form*/
@@ -218,3 +200,180 @@ a{
         height: auto;/*maintains the aspect ratio of the product images*/
       
     }
+
+    .card{
+
+        background-color: transparent !important;/*sets the background color of the card to transparent*/
+    border: transparent!important;/*removes the border from the card*/
+    }
+    .welcome-message img{
+        width: 60%;/*sets the width of the welcome message image*/
+        height: auto;/*maintains the aspect ratio of the welcome message image*/
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body.home-page {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4; /* Suggested background */
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h2 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff9800;
+}
+
+/* Buttons inside nav */
+nav .btn {
+  background: #ff9800;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+nav .btn a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav .btn:hover {
+  background: #e68900;
+}
+
+/* Welcome Message Section */
+.welcome-message {
+  position: relative;
+  margin: 30px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 300px;
+}
+
+.welcome-message img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+}
+
+/* Cards Grid */
+.row {
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  
+}
+
+
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-footer {
+  background: #f9f9f9;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+footer h2 {
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: #ff9800;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
