@@ -48,6 +48,11 @@
 .contact-info h2{
     color:goldenrod;
 }
+.contact-body{
+    background-color: grey;/*sets the background color of the contact section*/
+      padding: 20px !important;/*adds space around the contact section*/
+  
+}
 /*styling for the payment page*/
 .payment h1{
     color:goldenrod;
@@ -59,7 +64,11 @@
 .feedback-form h2{
     color:goldenrod;
 }
-
+.payment-body{
+    background-color: grey;/*sets the background color of the payment section*/
+      padding: 20px !important;/*adds space around the payment section*/
+  
+}
 .about-us{
     display: flex;
     align-items: center;/*vertically centers the content in the about section*/
@@ -101,6 +110,12 @@
     background-color: white;/*sets the background color of the form to white*/
     margin: 5% auto;/*centers the form on the page*/
     max-width: 40%;/*sets a maximum width for the form*/
+  
+}
+.feedback-body{
+    background-color: grey;/*sets the background color of the feedback section*/
+      padding: 20px !important;/*adds space around the feedback section*/
+  
 }
 /*styling for login and signup forms*/
 .login{
@@ -111,6 +126,11 @@
     margin: 5% auto;/*centers the form on the page*/
     max-width: 40%;/*sets a maximum width for the form*/
 }
+.signup-body{
+    background-color: grey;/*sets the background color of the signup section*/
+      padding: 20px !important;/*adds space around the signup section*/
+  
+}
 .signup{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);/*adds a subtle shadow around the form*/
     padding: 20px;/*adds space inside the form*/
@@ -118,6 +138,11 @@
     background-color: white;/*sets the background color of the form to white*/
     margin: 5% auto;/*centers the form on the page*/
     max-width: 40%;/*sets a maximum width for the form*/
+}
+.login-body{
+    background-color: grey;/*sets the background color of the login section*/
+      padding: 20px !important;/*adds space around the login section*/
+  
 }
 /*styling for contact form*/
 .contact-info{
@@ -175,7 +200,56 @@
         height: auto;/*maintains the aspect ratio of the welcome message image*/
 
     }
+.product-item1 img{
+    width: 10%;/*sets the width of the product images*/
+    height: auto;/*maintains the aspect ratio of the product images*/
+    display: inline-block;
+  
+    
+  }
+.product-item img{
+    width: 10%;/*sets the width of the product images*/
+    height: auto;/*maintains the aspect ratio of the product images*/
+    object-fit: cover;/*ensures the images fill the container without distortion*/
+    display: flex;
+    justify-content: flex-end;
+    border-radius:12px ;/*adds rounded corners to the product images*/
+    box-shadow: 0px 4px 5px 15px rgba(0, 0, 0, 0.1);/*adds a subtle shadow to the product images*/
+    transition: 0.3s; border: 1px solid rgb(178, 185, 185);/*adds a subtle shadow to the product images*/
+    img.right{float: right;}
+}
 
+    .product-item2 img:hover{
+        transform: scale(1.04); box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.35);/*adds a slight zoom effect on hover*/
+    }
+    
+
+.product-item img{
+    width: 10%;/*sets the width of the product images*/
+    height: auto;/*maintains the aspect ratio of the product images*/
+    object-fit: cover;/*ensures the images fill the container without distortion*/
+    border-radius:12px ;/*adds rounded corners to the product images*/
+    box-shadow: 0px 4px 5px 15px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgb(178, 185, 185);/*adds a subtle shadow to the product images*/
+}
+.products-item2 {
+  display: flex;
+  flex-direction: row;   /* makes them horizontal */
+  gap: 10px;             /* space between images */
+  flex-wrap: wrap;       /* allows them to move to next line if screen is small */         /* adjust size */
+  text-align: center;
+  flex-grow: 2;
+}
+.product-item img:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.35);/*adds a slight zoom effect on hover*/
+}
+.product-item4 img{
+    width: 10%;/*sets the width of the product images*/
+    height: auto;/*maintains the aspect ratio of the product images*/
+    
+}
 
 
 
@@ -286,39 +360,6 @@ nav .button:hover {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   padding: 20px;
-}
-
-/* Cards Grid */
-.row {
-  margin: 40px auto;
-  max-width: 1100px;
-}
-
-.card {
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  
-}
-
-
-
-.card img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  object-fit: cover;
-  height: 200px;
-}
-
-.card-body {
-  padding: 20px;
-}
-
-.card-footer {
-  background: #f9f9f9;
-  border-top: 1px solid #ddd;
-  text-align: center;
-  padding: 10px;
 }
 
 /* Footer */
