@@ -23,15 +23,9 @@
     align-items: center;/*vertically centers the content in the about section*/
     gap: 30px;
 }
+
 .about-image{
-    size: 250px
-    //*reduce height*/
-    
-    height; zoom: /*maintains the aspect ratio of the image*/    
-    flex-shrink;  /*prevents the image from shrinking when the container is resized*/  
-}
-.about-image{
-    text-align: center;/*centers the image in the about section*/
+    size: 50px;
 }
 .about-text{
     flex: 1;/*allows the text to take up the remaining space*/
