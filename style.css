@@ -22,11 +22,14 @@
     display: flex;
     align-items: center;/*vertically centers the content in the about section*/
     gap: 30px;
+    
+}
+.about-image{
+    height: 50px; /* no streach to hover*/
+    width: 50px; /* no streach to texts*/
+
 }
 
-.about-image{
-    size: 50px;
-}
 .about-text{
     flex: 1;/*allows the text to take up the remaining space*/
 }
