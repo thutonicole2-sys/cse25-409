@@ -75,12 +75,7 @@
     gap: 30px;
 }
 
-.about-us img {
-    width: 5%;/*sets the width of the image*/
-    height: auto;/*maintains the aspect ratio of the image*/    
-    padding: 20px;/*prevents the image from shrinking when the container is resized*/ 
-    flex-grow: 1; 
-}
+
 
 .about-text{
     flex-grow: 3;
@@ -183,7 +178,8 @@
     .product-item img{
         width: 10%;/*sets the width of the product images*/
         height: auto;/*maintains the aspect ratio of the product images*/
-      
+      float:right; /*display text after another*/
+      flex-direction: column; /*display text after another*/
     }
     .product-arrivals img{
         width: 10%;/*sets the width of the product images*/
@@ -201,11 +197,11 @@
         height: auto;/*maintains the aspect ratio of the welcome message image*/
 
     }
-.product-item1 img{
+.product-item img{
     width: 10%;/*sets the width of the product images*/
     height: auto;/*maintains the aspect ratio of the product images*/
     display: inline-block;
-  
+    
 }
 
 
