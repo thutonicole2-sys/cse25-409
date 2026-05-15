@@ -380,7 +380,7 @@ font-size: 24px;
 }
 
 footer a {
-  color:black;
+  color:rgb(253, 253, 253);
 font-size: 14px;
 flex-direction: column;
 gap: 15px;
