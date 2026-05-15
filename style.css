@@ -194,12 +194,7 @@
         height: auto;/*maintains the aspect ratio of the welcome message image*/
 
     }
-.product-item img{
-    width: 10%;/*sets the width of the product images*/
-    height: auto;/*maintains the aspect ratio of the product images*/
-    display: inline-block;
-    
-}
+
 
 
 
