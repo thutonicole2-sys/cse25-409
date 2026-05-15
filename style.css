@@ -277,7 +277,7 @@
 /* Body Styling */
 body.home-page {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: grey; /* Suggested background */
+  background-color:grey; /* Suggested background */
   color:grey;
   line-height: 1.6;
   padding: 0;
@@ -285,7 +285,7 @@ body.home-page {
 
 /*  Styling for Header */
 header {
-  background: #222;
+  background:rgb(60, 40, 40);
   color: white;
   padding:  10px 20px;
   align-items: center;
@@ -298,7 +298,7 @@ header h2 {
   margin-bottom: 15px;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #ff9800;
+  color: white;
 }
 
 /*  Styling for Navigation */
@@ -366,7 +366,7 @@ nav .button:hover {
 
 /* Footer */
 footer {
-  background: #222;
+  background:gray;
   text-align: center;
   padding:  20px;
   margin-top: 0;
@@ -380,7 +380,7 @@ font-size: 24px;
 }
 
 footer a {
-  color: goldenrod;
+  color:black;
 font-size: 14px;
 flex-direction: column;
 gap: 15px;
