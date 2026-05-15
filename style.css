@@ -143,6 +143,12 @@
       padding: 20px !important;/*adds space around the login section*/
   
 }
+@media
+    (max-width: 768px) {
+        .login, .signup, .feedback-form, .contact-info, .payment, .order-summary {
+            max-width: 90%; /* allows the forms to take up more space on smaller screens */
+        }
+    }
 /*styling for contact form*/
 .contact-info{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);/*adds a subtle shadow around the form*/
