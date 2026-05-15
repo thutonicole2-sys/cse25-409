@@ -342,7 +342,7 @@ nav{
     width: 95%;
   }
 }
-<!...resposive form design....   >
+/* Responsive Design */
 .login-body{
     @media (max-width: 768px) {
         width: 95%;
