@@ -179,7 +179,7 @@
         width: 10%;/*sets the width of the product images*/
         height: auto;/*maintains the aspect ratio of the product images*/
       float:right; /*display text after another*/
-      flex-direction: column; /*display text after another*/
+      
     }
     .product-arrivals img{
         width: 10%;/*sets the width of the product images*/
