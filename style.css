@@ -385,12 +385,13 @@ list-style: none;
 padding: 0;
 }
 @media (max-width: 768px) {
-#nav{
+nav{
     flex-direction: column;
     padding: 10px;
     text-align: center;
     flex-direction: column;
     float: right;
+    width: 95%;
   }
 }
 
