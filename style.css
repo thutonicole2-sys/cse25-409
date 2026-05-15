@@ -172,14 +172,15 @@
     .product-new h3{
         color:goldenrod;
     }
-    .product-item h3{
+    .product-stock h3{
         color:goldenrod;
     }
     .product-item{
-        width: 10%;/*sets the width of the product images*/
+        width: 250px;/*sets the width of the product images*/
         height: auto;/*maintains the aspect ratio of the product images*/
-      float:right; /*display text after another*/
-      
+        display:flex;/*allows the product items to be displayed in a row*/
+        flex-wrap: wrap;/*allows the product items to wrap to the next line if necessary*/
+      text-align: center;/*centers the text below the product images*/
     }
     .product-arrivals img{
         width: 10%;/*sets the width of the product images*/
