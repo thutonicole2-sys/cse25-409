@@ -4,7 +4,7 @@
 
 /*styling for the social media section in the footer*/
 .social-media h2{
-    color:goldenrod;
+    color:rgb(255, 255, 254);
 }
 .social-media{
     text-align: center;/*centers the social media section on the page*/
@@ -12,7 +12,7 @@
 }
 .social-media a{
     margin: 0 10px;/*adds space between the social media icons*/
-    color: goldenrod!important;/*to make the social media icons goldenrod*/
+    color: rgb(255, 255, 255)!important;/*to make the social media icons goldenrod*/
     font-size: 12px;/*increases the size of the social media icons*/
 }
 
