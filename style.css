@@ -379,7 +379,8 @@ footer h2 {
 font-size: 24px;
 }
 
-footer a {
+.social-media {
+    
   color:rgb(253, 253, 253);
 font-size: 14px;
 flex-direction: column;
