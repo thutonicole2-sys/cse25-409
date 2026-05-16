@@ -187,6 +187,12 @@
         display:flex;/*allows the product items to be displayed in a row*/
       text-align: center;/*centers the text below the product images*/
     }
+
+    .product-new{
+        height: auto;/*maintains the aspect ratio of the product images*/
+        display:flex;/*allows the product items to be displayed in a row*/
+      text-align: center;/*centers the text below the product images*/
+    }
    
 
     .card{
