@@ -182,6 +182,11 @@
       text-align: center;/*centers the text below the product images*/
 
     }
+    .product-other{
+        height: auto;
+        display:flex;/*allows the product items to be displayed in a row*/
+      text-align: center;/*centers the text below the product images*/
+    }
    
 
     .card{
