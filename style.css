@@ -167,13 +167,13 @@
     max-width: 40%;/*sets a maximum width for the form*/
 }
     .product-arrivals h3{
-        color:goldenrod;
+        color:black;
     }
     .product-new h3{
-        color:goldenrod;
+        color:black;
     }
     .product-stock h3{
-        color:goldenrod;
+        color:black;
     }
     .product-item{
    
@@ -193,7 +193,11 @@
     display:flex;/*allows the product items to be displayed in a row*/
     text-align: center;/*centers the text below the product images*/
    }
-   
+   .product-stock{
+    height: auto;/*maintains the aspect ratio of the product images*/
+    display:flex;/*allows the product items to be displayed in a row*/
+    text-align: center;/*centers the text below the product images*/
+   }
 
     .card{
 
