@@ -188,7 +188,7 @@
       text-align: center;/*centers the text below the product images*/
     }
 
-   .product-arrivals{
+   .product-arrival{
     height: auto;/*maintains the aspect ratio of the product images*/
     display:flex;/*allows the product items to be displayed in a row*/
     text-align: center;/*centers the text below the product images*/
