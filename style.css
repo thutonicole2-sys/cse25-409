@@ -12,7 +12,7 @@
 }
 .social-media a{
     margin: 0 10px;/*adds space between the social media icons*/
-    color: rgb(255, 255, 255)!important;/*to make the social media icons goldenrod*/
+    color: rgb(255, 255, 255);/*to make the social media icons goldenrod*/
     font-size: 12px;/*increases the size of the social media icons*/
 }
 
@@ -24,11 +24,7 @@
     gap: 30px;
     
 }
-.about-image{
-    height: 50px; /* no streach to hover*/
-    width: 50px; /* no streach to texts*/
 
-}
 
 .about-text{
     flex: 1;/*allows the text to take up the remaining space*/
@@ -49,7 +45,7 @@
 }
 .contact-body{
     background-color: grey;/*sets the background color of the contact section*/
-      padding: 20px !important;/*adds space around the contact section*/
+      padding: 20px ;/*adds space around the contact section*/
   
 }
 /*styling for the payment page*/
@@ -65,7 +61,7 @@
 }
 .payment-body{
     background-color: grey;/*sets the background color of the payment section*/
-      padding: 20px !important;/*adds space around the payment section*/
+      padding: 20px ;/*adds space around the payment section*/
   
 }
 .about-us{
@@ -122,7 +118,7 @@
 }
 .signup-body{
     background-color: grey;/*sets the background color of the signup section*/
-      padding: 20px !important;/*adds space around the signup section*/
+      padding: 20px ;/*adds space around the signup section*/
   
 }
 .signup{
@@ -135,7 +131,7 @@
 }
 .login-body{
     background-color: grey;/*sets the background color of the login section*/
-      padding: 20px !important;/*adds space around the login section*/
+      padding: 20px ;/*adds space around the login section*/
   
 }
     
@@ -202,8 +198,8 @@
 
     .card{
 
-        background-color: transparent !important;/*sets the background color of the card to transparent*/
-    border: transparent!important;/*removes the border from the card*/
+        background-color: transparent ;/*sets the background color of the card to transparent*/
+    border: transparent;/*removes the border from the card*/
     }
     .welcome-message img{
         width: 60%;/*sets the width of the welcome message image*/
