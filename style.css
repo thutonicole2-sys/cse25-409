@@ -108,7 +108,7 @@
 }
 .feedback-body{
     background-color: grey;/*sets the background color of the feedback section*/
-      padding: 20px !important;/*adds space around the feedback section*/
+      padding: 20px ;/*adds space around the feedback section*/
   
 }
 /*styling for login and signup forms*/
