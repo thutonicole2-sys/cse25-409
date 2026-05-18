@@ -34,18 +34,18 @@
     flex: 1;/*allows the text to take up the remaining space*/
 }
 .about-text h2{
-    color:goldenrod;   
+    color:black;   
 }
 .rules h3{
-    color:goldenrod;
+    color:black;
 }
 .location h3{
-    color:goldenrod;
+    color:black;
 }
 
 /*styling for the contact page*/
 .contact-info h2{
-    color:goldenrod;
+    color:black;
 }
 .contact-body{
     background-color: grey;/*sets the background color of the contact section*/
@@ -54,14 +54,14 @@
 }
 /*styling for the payment page*/
 .payment h1{
-    color:goldenrod;
+    color:black;
 }
 .order-summary h2{
-    color:goldenrod;
+    color:black;
 }
 
 .feedback-form h2{
-    color:goldenrod;
+    color:black;
 }
 .payment-body{
     background-color: grey;/*sets the background color of the payment section*/
