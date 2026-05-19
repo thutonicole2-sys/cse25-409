@@ -10,7 +10,7 @@
 }
 .social-media a{
     margin: 0 10px;/*adds space between the social media icons*/
-    color: rgb(255, 255, 255);/*to make the social media icons goldenrod*/
+    color: white;/*to make the social media icons white*/
     font-size: 12px;/*increases the size of the social media icons*/
 }
 .social-media h2{
