@@ -192,7 +192,9 @@
     gap: 20px;/*adds space between the product items*/
    }
    .cart-btn{
-    background-color: rgb(54, 24, 24)!important;/*sets the background color of the buttons*/
+    background-color: rgb(54, 24, 24);/*sets the background color of the buttons*/
+    color: white;/*sets the text color of the buttons to white*/
+    border: none;/*removes the border from the buttons*/
    }
 
     .card{
