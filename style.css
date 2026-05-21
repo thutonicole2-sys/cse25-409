@@ -129,6 +129,11 @@
       padding: 20px ;/*adds space around the login section*/
   
 }
+.submit{
+    background-color: rgb(58, 48, 48);/*sets the background color of the submit button*/
+    color: white;/*sets the text color of the submit button to white*/
+    border: none;/*removes the border from the submit button*/
+}
     
     
 /*styling for contact form*/
