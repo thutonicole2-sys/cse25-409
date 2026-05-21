@@ -192,7 +192,7 @@
     gap: 20px;/*adds space between the product items*/
    }
    .btn{
-    background-color: rgb(54, 24, 24);
+    background-color: rgb(54, 24, 24)!important;/*sets the background color of the buttons*/
    }
 
     .card{
