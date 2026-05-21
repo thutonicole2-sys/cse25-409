@@ -191,7 +191,7 @@
     text-align: center;/*centers the text below the product images*/
     gap: 20px;/*adds space between the product items*/
    }
-   .btn{
+   .cart-btn{
     background-color: rgb(54, 24, 24)!important;/*sets the background color of the buttons*/
    }
 
