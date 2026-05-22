@@ -1,6 +1,37 @@
 
 
+ /* General Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
+/* Body Styling */
+body.home-page {
+  background-color:grey; /* Suggested background */
+color:grey;
+line-height: 1.6;
+padding: 0;
+}
+
+/*  Styling for Header */
+header {
+  background:rgb(60, 40, 40);
+  color:white;
+  padding:  10px 20px;
+  align-items: center;
+  justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+}
+
+header h2 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+}
 
 /*styling for the social media section in the footer*/
 
@@ -216,52 +247,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* General Reset */
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-
-/* Body Styling */
-body.home-page {
-  background-color:grey; /* Suggested background */
-color:grey;
-line-height: 1.6;
-padding: 0;
-}
-
-/*  Styling for Header */
-header {
-  background:rgb(60, 40, 40);
-  color:white;
-  padding:  10px 20px;
-  align-items: center;
-  justify-content: space-between;
-display: flex;
-flex-wrap: wrap;
-}
-
-header h2 {
-  margin-bottom: 15px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: white;
-}
 
 /*  Styling for Navigation */
 nav ul {
