@@ -56,7 +56,6 @@ header h2 {
     
 }
 
-
 .about-text{
     flex: 1;/*allows the text to take up the remaining space*/
 }
@@ -305,7 +304,7 @@ nav .button a {
   padding: 20px;
 }
 
-/* Footer */
+/*  styling for Footer */
 footer {
   background:rgb(72, 41, 41);
   text-align: center;
@@ -331,7 +330,7 @@ padding: 0;
 }
   
 
-/*MOBILE RESPONSIVE DESIGN */
+/* Mobile Responsive Design so it adapts to smaller screens */
 
 @media screen and (max-width: 768px){
 
