@@ -239,7 +239,6 @@ box-sizing: border-box;
 
 /* Body Styling */
 body.home-page {
-font-family: Arial, Helvetica, sans-serif;
   background-color:grey; /* Suggested background */
 color:grey;
 line-height: 1.6;
@@ -283,9 +282,6 @@ nav ul li a {
   transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-  color: white;
-}
 
 /* Buttons inside nav */
 nav .button {
@@ -301,9 +297,6 @@ nav .button a {
   font-weight: bold;
 }
 
-nav .button:hover {
-  background:white;
-}
 
 /* Welcome Message Section */
 .welcome-message {
@@ -351,27 +344,9 @@ gap: 15px;
 list-style: none;
 padding: 0;
 }
-@media (max-width: 768px) {
-nav{
-    flex-direction: column;
-    padding: 10px;
-    text-align: center;
-    flex-direction: column;
-    float: right;
-    width: 95%;
-  }
-}
-/* Responsive Design */
-.login-body{
-    @media (max-width: 768px) {
-        width: 95%;
-        text-align: center;
-    }
-}
+  
 
-/* =========================
-   MOBILE RESPONSIVE DESIGN
-========================= */
+/*MOBILE RESPONSIVE DESIGN */
 
 @media screen and (max-width: 768px){
 
