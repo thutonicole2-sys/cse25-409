@@ -271,6 +271,11 @@ nav .button a {
   display: block;
 }
 
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.5);/*adds a semi-transparent black overlay to the card image*/
+    color: white;/*sets the text color of the overlay to white*/
+    padding: 20px;/*adds space inside the overlay*/
+}
 
 
 /*  styling for Footer */
