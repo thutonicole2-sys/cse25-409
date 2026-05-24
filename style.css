@@ -279,7 +279,7 @@ nav .button a {
 
 
 /*  styling for Footer */
-footer {
+.footer {
   background:rgb(72, 41, 41);
   text-align: center;
   padding:  20px;
@@ -289,7 +289,7 @@ footer {
 
 }
 
-footer h2 {
+.footer h2 {
 font-size: 24px;
 }
 
