@@ -181,7 +181,7 @@ header h2 {
     max-width: 40%;/*sets a maximum width for the form*/
 }
 .order-summary{
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);/*adds a subtle shadow around the form*/
+
     padding: 10px;/*adds space inside the form*/
     border-radius: 5px;/*rounds the corners of the form*/
     background-color: white;/*sets the background color of the form to white*/
