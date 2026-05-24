@@ -94,27 +94,6 @@ header h2 {
       padding: 20px ;/*adds space around the payment section*/
   
 }
-.about-us{
-    display: flex;
-    align-items: center;/*vertically centers the content in the about section*/
-    justify-content: space-between;
-    gap: 30px;
-}
-
-
-
-.about-text{
-    flex-grow: 3;
-    font-size: 112.5%;/*increases the size of the text in the about section*/
-    justify-content: center;
-    align-items: start;
-}
-
-.about-text h2 {
-    display: flex;
-    justify-content: center;
-    
-}
 
 
 /*styling for feedback form*/
