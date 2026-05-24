@@ -271,11 +271,7 @@ nav .button a {
   display: block;
 }
 
-.card-img-overlay {
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  padding: 20px;
-}
+
 
 /*  styling for Footer */
 footer {
@@ -294,7 +290,7 @@ font-size: 24px;
 
 aside{
     
-  color:rgb(253, 253, 253);
+  color:white;
 font-size: 14px;
 flex-direction: column;
 gap: 15px;
